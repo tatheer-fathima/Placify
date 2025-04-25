@@ -5,7 +5,11 @@ const path = require("path");
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+
+app.use(cors({
+  origin: 'https://placify-7jx7.vercel.app/', // or '*'
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+}));
 
 // public folder for users profile
 app.use('/profileImgs', express.static(path.join(__dirname, 'public/profileImgs')));
