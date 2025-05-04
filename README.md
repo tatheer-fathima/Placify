@@ -1,7 +1,5 @@
 # 🎓 Placify - College Placement Management System
 
-## 📌 Introduction
-
 **Placify** is a web-based College Placement Management System built to automate and streamline the end-to-end placement process in academic institutions. It provides a centralized platform for students, TPOs (Training and Placement Officers), management, and super admins to collaborate efficiently, reduce paperwork, and track placements in real-time.
 
 ---
